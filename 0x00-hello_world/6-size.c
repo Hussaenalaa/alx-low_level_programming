@@ -5,18 +5,12 @@
  *
  * Return: o on success
  */
-
 int main(void)
 {
-	int a;
-	long int b;
-	char d;
-	float f;
-
-	printf("Size of a char: %lu byte(s)", (unsigned long)sizeof(d));
-	printf("Size of int: %lu byte(s)", (unsigned long)sizeof(a));
-	printf("Sie of a long int: %lu byte(s)",(unsigned long)sizeof(b));
-	printf("Size of a long long int: %lu byte(s)",(unsigned long)sizeof(c));
-	printf("Size of a float: %lu byte(s)", (unsigned long)sizeof(f));
+	printf("Size of a char: %d byte(s)", sizeof(char));
+	printf("Size of int: %d byte(s)", sizeof(int));
+	printf("Sie of a long int: %d byte(s)", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)", sizeof(long long int));
+	printf("Size of a float: %d byte(s)", sizeof(float));
 	return (0);
 }
